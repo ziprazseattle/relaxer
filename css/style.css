@@ -71,24 +71,50 @@ header {background-color: rgba(52,143,203,.4);
         height: 600px;
 }
 
-.benefits {background-color:  background color: #f0efef;
 
+/******************************************
+/* BENEFIT STYLES
+/*******************************************/
+
+.benefits {
+  background-color:  background color: #f0efef;
+  padding: 35px 35px 25px 45px;
+  width: 50%;
+}
+
+.benefits h3 {
+  font-weight: 300;
 }
 
 /******************************************
 /* QUOTE STYLES
 /*******************************************/
 
-.quote {background-color: rgba(52,143,203,.8);
-
+section.quote {background-color: rgba(52,143,203,.8);
+  text-align: center;
 }
 
-author {
-  font-style: bold;
+span.author-name {
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #fff;
 }
 
 .quote-dash {
-  font-style: normal;
+  font-size: .6em;
+}
+
+blockquote {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 50%;
+}
+
+blockquote p {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
 }
 
 /******************************************
