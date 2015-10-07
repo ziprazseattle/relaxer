@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Site
+Client: Relaxr, Inc.
+Author: Amber Zipperer
+Developer @GA in Seattle
 */
 
 
@@ -49,10 +49,10 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       background-size: cover;
 }
+
 
 
 /******************************************
@@ -60,24 +60,97 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+#container {  
   width: 100%;
   margin: auto;
-  height: 500px;
-
+  box-sizing:border box
 }
 
-header {
-
+header {background-color: rgba(52,143,203,.4); 
+        background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+        height: 600px;
 }
 
-footer {
+.benefits {background-color:  background color: #f0efef;
 
 }
 
 /******************************************
+/* QUOTE STYLES
+/*******************************************/
+
+.quote {background-color: rgba(52,143,203,.8);
+
+}
+
+author {
+  font-style: bold;
+}
+
+.quote-dash {
+  font-style: normal;
+}
+
+/******************************************
+/* SIGN UP BANNER STYLES
+/*******************************************/
+
+
+.sign-up-banner {
+      background-color: #f9e42e;
+      text-align: center;
+      padding: 20px 0px;
+      color: fff;
+}
+
+.sign-up-banner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sign-up-banner button {
+  background-color: #033048;
+  border-radius: 3px; 
+  border: none;
+  padding: 10px 45px; 
+}
+
+
+
+/******************************************
+/* FOOTER STYLES
+/*******************************************/
+
+
+footer {
+  background-color: #121212;
+  text-align: center;
+  color: #f9e42e;
+  padding: 15px 0px 25px 0px;
+}
+
+nav ul {width: 100%;
+         margin: 10px 10px;
+
+}
+
+nav li {display: inline; 
+        margin: 10px 10px;
+}
+
+li img {height: 18px;
+      
+}
+
+footer small {
+  color: #fff;
+}
+
+
+/******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
 
 
 
