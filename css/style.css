@@ -46,11 +46,9 @@ Developer @GA in Seattle
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
+     
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-      background-size: cover;
+     
 }
 
 
@@ -61,42 +59,109 @@ body {
 
 /* Center the container */
 #container {  
-  width: 100%;
-  margin: auto;
-  box-sizing:border box
+  box-sizing:border box;
+  background-color: #fff;
 }
 
-header {background-color: rgba(52,143,203,.4); 
-        background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+
+/******************************************
+/* HEADER STYLES
+/*******************************************/
+
+
+header { 
+        background: url(../images/header_bg.jpg) no-repeat center top; 
         height: 600px;
+        text-align: center;
+        color: #fff;
+        background-size: cover;
+
+}
+ 
+header h1 {text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 30px 0px 60px 100px;
 }
 
+
+header h2 {
+  font-weight: 600;
+  font-size: 43px;
+    padding: 0px 0px 35px 0px;
+}
+
+
+button.yellow  {
+  background-color: #f9e42e;
+  color:#2a4052;
+  border-radius: 3px; 
+  border: none;
+  padding: 10px 45px; 
+}
+
+
+button a {
+  color: #033048;
+  text-decoration: none;
+       font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+       font-weight: 600;
+       font-size: 30px;
+}
+ 
 
 /******************************************
 /* BENEFIT STYLES
 /*******************************************/
 
 .benefits {
-  background-color:  background color: #f0efef;
-  padding: 35px 35px 25px 45px;
-  width: 50%;
+  background-color: #f0efef;
+  color: #2a4052;
+  height: 600px;
 }
 
+
 .benefits h3 {
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 60px 0px 0px 100px;
+  margin-bottom: 0px;
+
 }
+
+.benefits p  {
+  font-size: 20px;
+  font-weight: 300;
+  color: #555;
+  padding: 0px 0px 8px 100px;
+  max-width: 600px;
+}
+
+.benefits ul  {
+  font-size: 22px;
+  font-weight: 300;
+  color: #555;
+  padding-left: 140px;
+  line-height: 33px;
+  max-width: 500px;
+}
+
+
+
 
 /******************************************
 /* QUOTE STYLES
 /*******************************************/
 
-section.quote {background-color: rgba(52,143,203,.8);
+section.quote {background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
   text-align: center;
+  margin: 0 auto;
 }
 
 span.author-name {
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 28px;
   color: #fff;
 }
 
@@ -107,14 +172,17 @@ span.author-name {
 blockquote {
   padding-top: 20px;
   padding-bottom: 40px;
-  width: 50%;
+  max-width: 450px;
+  display: inline-block;
 }
 
 blockquote p {
   font-style: italic;
+  font-weight: 100;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 28px;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 /******************************************
@@ -132,6 +200,7 @@ blockquote p {
 .sign-up-banner a {
   color: #fff;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .sign-up-banner button {
@@ -152,24 +221,30 @@ footer {
   background-color: #121212;
   text-align: center;
   color: #f9e42e;
-  padding: 15px 0px 25px 0px;
+  padding: 18px 0px 35px 0px;
 }
 
-nav ul {width: 100%;
-         margin: 10px 10px;
+footer h2 {
+  font-size: 38px;
+}
+
+nav ul {
+        margin: 10px 60px 40px 10px;
 
 }
 
-nav li {display: inline; 
-        margin: 10px 10px;
+nav li {display: inline-block; 
+        margin: 10px 20px;
+
 }
 
-li img {height: 18px;
+li img {height: 25px;
       
 }
 
 footer small {
   color: #fff;
+  font-size: 14px;
 }
 
 
